@@ -1,0 +1,46 @@
+
+Note: if you generate random numbers repeatedly, you'll get different
+answers.  These are the answers I got if I ran the code from the
+top, where the np.random.seed() function is called.
+
+Below results are collected on python 3.9. If using a different version, your results might vary.
+
+100 flips:
+ ['H' 'T' 'H' 'H' 'H' 'H' 'H' 'T' 'T' 'H' 'T' 'H' 'H' 'T' 'H' 'H' 'H' 'T'
+ 'T' 'T' 'T' 'T' 'H' 'T' 'H' 'H' 'H' 'T' 'H' 'H' 'H' 'T' 'H' 'H' 'H' 'H'
+ 'H' 'H' 'T' 'H' 'H' 'H' 'H' 'H' 'H' 'H' 'H' 'H' 'H' 'H' 'H' 'H' 'T' 'H'
+ 'H' 'H' 'H' 'H' 'H' 'H' 'H' 'H' 'H' 'H' 'H' 'H' 'T' 'H' 'T' 'H' 'T' 'H'
+ 'T' 'H' 'T' 'H' 'H' 'H' 'H' 'H' 'H' 'H' 'H' 'H' 'H' 'H' 'H' 'H' 'H' 'T'
+ 'H' 'H' 'H' 'T' 'H' 'H' 'H' 'H' 'T' 'H']
+Problem 1:  [9473  527]
+
+Problem 2: 527
+
+Problem 4:  [9516  484]
+
+Problem 5:
+ col_0  False  True
+row_0             
+False   8942   531
+True      43   484
+
+Problem 6:
+Out: 0.4768472906403941
+
+Problem 7:
+Out: 0.995214245965498
+
+Problem 8:
+Out: 0.004785754034501948
+
+Problem 9:
+My plot shows 4 bars, with the two orange/True bars being about the same height.
+
+Problem 10: test 1: 0.4040
+Problem 10, test 2: 0.0103
+
+Problem 11:
+Out: 0.48648648648648657
+
+Problem 12, test 1: 0.3311
+Problem 12, test 2: 0.0105

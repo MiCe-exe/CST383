@@ -1,0 +1,372 @@
+
+ 
+
+Out[1]: 173
+
+Out[2]: 
+array([0.01838053, 0.11724138, 0.02409639, 0.05012531, 0.06109771,
+       0.17722641, 0.09565217, 0.02116741, 0.05734228, 0.05917385])
+
+Out[3]: 0.177226407
+
+Out[4]: 
+Index(['PETROLEUM ENGINEERING', 'MINING AND MINERAL ENGINEERING',
+       'METALLURGICAL ENGINEERING',
+       'NAVAL ARCHITECTURE AND MARINE ENGINEERING', 'CHEMICAL ENGINEERING'],
+      dtype='object')
+
+Out[5]: 
+EDUCATIONAL ADMINISTRATION AND SUPERVISION    0.000000
+MILITARY TECHNOLOGIES                         0.000000
+BOTANY                                        0.000000
+MATHEMATICS AND COMPUTER SCIENCE              0.000000
+SOIL SCIENCE                                  0.000000
+ENGINEERING MECHANICS PHYSICS AND SCIENCE     0.006334
+COURT REPORTING                               0.011690
+MATHEMATICS TEACHER EDUCATION                 0.016203
+PETROLEUM ENGINEERING                         0.018381
+GENERAL AGRICULTURE                           0.019642
+Name: Unemployment_rate, dtype: float64
+
+Out[6]: 41
+
+Out[7]: 0.3988439306358382
+
+Out[8]: 0.4508670520231214
+
+Out[9]: 
+Rank                                        81
+Total                                    15232
+Men                                       6383
+Women                                     8849
+Major_category          Biology & Life Science
+ShareWomen                            0.580948
+Employed                                  9685
+Full_time                                 7453
+Part_time                                 3379
+Full_time_year_round                      5080
+Unemployed                                 693
+Unemployment_rate                    0.0667759
+Median                                   38000
+P25th                                    29600
+P75th                                    50000
+College_jobs                              5577
+Non_college_jobs                          3174
+Low_wage_jobs                             1246
+Name: MICROBIOLOGY, dtype: object
+
+Out[10]: 6771654.0
+
+Out[11]: 0.5752254914382808
+
+Out[12]: 'EARLY CHILDHOOD EDUCATION'
+
+Out[13]: 
+Major
+MEDICAL ASSISTING SERVICES                       42000
+SPECIAL NEEDS EDUCATION                          35000
+ELEMENTARY EDUCATION                             32000
+FAMILY AND CONSUMER SCIENCES                     30000
+SOCIAL WORK                                      30000
+HUMAN SERVICES AND COMMUNITY ORGANIZATION        30000
+COMMUNICATION DISORDERS SCIENCES AND SERVICES    28000
+EARLY CHILDHOOD EDUCATION                        28000
+Name: Median, dtype: int64
+
+Out[14]: 
+Major
+PETROLEUM ENGINEERING                          110000
+MINING AND MINERAL ENGINEERING                  75000
+NAVAL ARCHITECTURE AND MARINE ENGINEERING       70000
+NUCLEAR ENGINEERING                             65000
+MECHANICAL ENGINEERING                          60000
+AEROSPACE ENGINEERING                           60000
+CONSTRUCTION SERVICES                           50000
+MECHANICAL ENGINEERING RELATED TECHNOLOGIES     40000
+MILITARY TECHNOLOGIES                           40000
+TRANSPORTATION SCIENCES AND TECHNOLOGIES        35000
+FORESTRY                                        35000
+Name: Median, dtype: int64
+
+Out[15]: 5.0
+
+Out[16]: 
+                                           Median  P25th   P75th
+Major                                                           
+PETROLEUM ENGINEERING                      110000  95000  125000
+MINING AND MINERAL ENGINEERING              75000  55000   90000
+METALLURGICAL ENGINEERING                   73000  50000  105000
+NAVAL ARCHITECTURE AND MARINE ENGINEERING   70000  43000   80000
+CHEMICAL ENGINEERING                        65000  50000   75000
+NUCLEAR ENGINEERING                         65000  50000  102000
+ACTUARIAL SCIENCE                           62000  53000   72000
+ASTRONOMY AND ASTROPHYSICS                  62000  31500  109000
+COMPUTER ENGINEERING                        60000  45000   75000
+MATERIALS SCIENCE                           60000  39000   65000
+
+Out[17]: 
+                                               Median  P25th  P75th
+Major                                                              
+LIBRARY SCIENCE                                 22000  20000  22000
+COUNSELING PSYCHOLOGY                           23400  19200  26000
+EDUCATIONAL PSYCHOLOGY                          25000  24000  34000
+CLINICAL PSYCHOLOGY                             25000  25000  40000
+ZOOLOGY                                         26000  20000  39000
+COMPOSITION AND RHETORIC                        27000  20000  35000
+DRAMA AND THEATER ARTS                          27000  19200  35000
+OTHER FOREIGN LANGUAGES                         27500  22900  38000
+EARLY CHILDHOOD EDUCATION                       28000  21000  35000
+COMMUNICATION DISORDERS SCIENCES AND SERVICES   28000  20000  40000
+
+Out[18]: 
+Major
+COSMETOLOGY SERVICES AND CULINARY ARTS                               0.702569
+NUCLEAR, INDUSTRIAL RADIOLOGY, AND BIOLOGICAL TECHNOLOGIES           0.697070
+ELECTRICAL, MECHANICAL, AND PRECISION TECHNOLOGIES AND PRODUCTION    0.681314
+MEDICAL ASSISTING SERVICES                                           0.624652
+DRAMA AND THEATER ARTS                                               0.585285
+CRIMINAL JUSTICE AND FIRE PROTECTION                                 0.581440
+HOSPITALITY MANAGEMENT                                               0.534768
+FILM VIDEO AND PHOTOGRAPHIC ARTS                                     0.534584
+CRIMINOLOGY                                                          0.533478
+INDUSTRIAL PRODUCTION TECHNOLOGIES                                   0.529907
+dtype: float64
+
+Out[19]: 
+Major_category
+Business                               1302376.0
+Humanities & Liberal Arts               713468.0
+Education                               559129.0
+Engineering                             537583.0
+Social Science                          529966.0
+Psychology & Social Work                481007.0
+Health                                  463230.0
+Biology & Life Science                  453862.0
+Communications & Journalism             392601.0
+Arts                                    357130.0
+Computers & Mathematics                 299008.0
+Industrial Arts & Consumer Services     229792.0
+Physical Sciences                       185479.0
+Law & Public Policy                     179107.0
+Agriculture & Natural Resources          75620.0
+Interdisciplinary                        12296.0
+Name: Total, dtype: float64
+
+Out[20]: 
+Major_category
+Business                               0.192328
+Humanities & Liberal Arts              0.105361
+Education                              0.082569
+Engineering                            0.079387
+Social Science                         0.078262
+Psychology & Social Work               0.071032
+Health                                 0.068407
+Biology & Life Science                 0.067024
+Communications & Journalism            0.057977
+Arts                                   0.052739
+Computers & Mathematics                0.044156
+Industrial Arts & Consumer Services    0.033934
+Physical Sciences                      0.027391
+Law & Public Policy                    0.026450
+Agriculture & Natural Resources        0.011167
+Interdisciplinary                      0.001816
+Name: Total, dtype: float64
+
+Out[21]: 
+Engineering                            29
+Education                              16
+Humanities & Liberal Arts              15
+Biology & Life Science                 14
+Business                               13
+Health                                 12
+Computers & Mathematics                11
+Physical Sciences                      10
+Social Science                          9
+Agriculture & Natural Resources         9
+Psychology & Social Work                9
+Arts                                    8
+Industrial Arts & Consumer Services     7
+Law & Public Policy                     5
+Communications & Journalism             4
+Interdisciplinary                       1
+Name: Major_category, dtype: int64
+
+Out[22]: 
+Major
+PETROLEUM ENGINEERING                        False
+MINING AND MINERAL ENGINEERING               False
+METALLURGICAL ENGINEERING                    False
+NAVAL ARCHITECTURE AND MARINE ENGINEERING    False
+CHEMICAL ENGINEERING                         False
+Name: HighShareWomen, dtype: bool
+
+Out[23]: 0.5581395348837209
+
+Out[24]: 
+Major
+COSMETOLOGY SERVICES AND CULINARY ARTS    0.300951
+DRAMA AND THEATER ARTS                    0.255913
+MISCELLANEOUS FINE ARTS                   0.226048
+CLINICAL PSYCHOLOGY                       0.219168
+STUDIO ARTS                               0.211227
+HOSPITALITY MANAGEMENT                    0.207643
+PHYSICAL SCIENCES                         0.187326
+COMPOSITION AND RHETORIC                  0.182873
+ANTHROPOLOGY AND ARCHEOLOGY               0.176758
+LIBRARY SCIENCE                           0.174863
+dtype: float64
+
+Out[25]: 
+Major_category
+Engineering                            110000
+Business                                62000
+Physical Sciences                       62000
+Law & Public Policy                     54000
+Computers & Mathematics                 53000
+Arts                                    50000
+Industrial Arts & Consumer Services     50000
+Health                                  48000
+Social Science                          47000
+Biology & Life Science                  45000
+Education                               41000
+Agriculture & Natural Resources         40000
+Humanities & Liberal Arts               40000
+Psychology & Social Work                40000
+Communications & Journalism             35000
+Interdisciplinary                       35000
+Name: Median, dtype: int64
+
+Out[26]: 
+Major_category
+Psychology & Social Work               30100.000000
+Humanities & Liberal Arts              31913.333333
+Education                              32350.000000
+Arts                                   33062.500000
+Communications & Journalism            34500.000000
+Interdisciplinary                      35000.000000
+Agriculture & Natural Resources        35111.111111
+Industrial Arts & Consumer Services    36342.857143
+Biology & Life Science                 36421.428571
+Health                                 36825.000000
+Social Science                         37344.444444
+Physical Sciences                      41890.000000
+Law & Public Policy                    42200.000000
+Computers & Mathematics                42745.454545
+Business                               43538.461538
+Engineering                            57382.758621
+Name: Median, dtype: float64
+
+Out[27]: 
+Major
+PETROLEUM ENGINEERING                        0.000345
+MINING AND MINERAL ENGINEERING               0.000112
+METALLURGICAL ENGINEERING                    0.000126
+NAVAL ARCHITECTURE AND MARINE ENGINEERING    0.000186
+CHEMICAL ENGINEERING                         0.004764
+Name: Major_share, dtype: float64
+
+Out[28]: 
+Major_category
+Agriculture & Natural Resources        34951.719122
+Arts                                   31716.044578
+Biology & Life Science                 34446.722572
+Business                               40942.111188
+Communications & Journalism            34730.902367
+Computers & Mathematics                47351.062848
+Education                              32510.901062
+Engineering                            55979.360396
+Health                                 40610.877102
+Humanities & Liberal Arts              32210.185741
+Industrial Arts & Consumer Services    33076.878220
+Interdisciplinary                      35000.000000
+Law & Public Policy                    35729.390811
+Physical Sciences                      38800.856162
+Psychology & Social Work               31185.153023
+Social Science                         39047.387380
+dtype: float64
+
+Out[29]: 
+Major_category
+Agriculture & Natural Resources        0.051505
+Arts                                   0.089105
+Biology & Life Science                 0.070219
+Business                               0.068439
+Communications & Journalism            0.075062
+Computers & Mathematics                0.071106
+Education                              0.049577
+Engineering                            0.066418
+Health                                 0.056900
+Humanities & Liberal Arts              0.086103
+Industrial Arts & Consumer Services    0.057442
+Interdisciplinary                      0.070861
+Law & Public Policy                    0.085162
+Physical Sciences                      0.053632
+Psychology & Social Work               0.080592
+Social Science                         0.096858
+dtype: float64
+
+Out[30]: 
+Major_category
+Agriculture & Natural Resources        0.466318
+Arts                                   0.623694
+Biology & Life Science                 0.592566
+Business                               0.487205
+Communications & Journalism            0.663982
+Computers & Mathematics                0.301942
+Education                              0.814844
+Engineering                            0.240476
+Health                                 0.836977
+Humanities & Liberal Arts              0.617578
+Industrial Arts & Consumer Services    0.548370
+Interdisciplinary                      0.770901
+Law & Public Policy                    0.491204
+Physical Sciences                      0.485710
+Psychology & Social Work               0.796022
+Social Science                         0.515376
+dtype: float64
+
+Out[31]: 
+HighShareWomen
+False    43633.592490
+True     34692.752128
+dtype: float64
+
+Out[32]: 
+Major_category
+Engineering                            0.046651
+Computers & Mathematics                0.053965
+Health                                 0.067504
+Education                              0.073096
+Physical Sciences                      0.075901
+Interdisciplinary                      0.086288
+Biology & Life Science                 0.094174
+Business                               0.097351
+Agriculture & Natural Resources        0.098043
+Social Science                         0.102233
+Law & Public Policy                    0.115685
+Industrial Arts & Consumer Services    0.115713
+Psychology & Social Work               0.116934
+Communications & Journalism            0.126324
+Humanities & Liberal Arts              0.132087
+Arts                                   0.168331
+dtype: float64
+
+Out[33]: 
+Major_category
+Social Science                         0.096689
+Arts                                   0.089233
+Humanities & Liberal Arts              0.085852
+Law & Public Policy                    0.085258
+Psychology & Social Work               0.080486
+Communications & Journalism            0.075108
+Computers & Mathematics                0.071695
+Interdisciplinary                      0.070861
+Biology & Life Science                 0.070179
+Business                               0.068352
+Engineering                            0.066232
+Industrial Arts & Consumer Services    0.057467
+Health                                 0.056327
+Physical Sciences                      0.053565
+Agriculture & Natural Resources        0.051813
+Education                              0.049462
+dtype: float64

@@ -1,0 +1,35 @@
+
+# Instructions: edit this file to provide your homework answers.
+# Problem numbers are shown on lines that begin with #@.
+#
+# Please put your solution to a problem after the line that gives
+# the number of that problem.  Each problem shows how your answer
+# should be given.
+#
+# Do not modify this file *except* to add lines as needed after each problem.
+# Blank lines are ignored.
+#
+# No points will be awarded to incorrectly-formatted files.
+
+#@ 1 -- enter a number with two significant digits
+39
+#@ 2 -- enter 'a', 'b', or 'c'
+c
+#@ 3 -- enter a number with three significant digits
+10.0
+#@ 4 -- enter a number with three significant digits
+7.07
+#@ 5 -- enter a decimal number between 0 and 1, with 3 significant digits
+0.500
+#@ 6 -- enter a decimal number between 0 and 1, with 3 significant digits
+0.125
+#@ 7 -- enter a decimal number between 0 and 1, with 3 significant digits
+0.563
+#@ 8 -- enter 'a', 'b', or 'c'
+a
+#@ 9 -- enter a Python expression that refers to variables s1 and s2
+s1+s2
+#@ 10 -- enter a number with three significant digits
+4.00
+
+
